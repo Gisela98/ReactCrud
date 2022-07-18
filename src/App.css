@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  background-color: #ecb7e5;
+  background-image: linear-gradient(0deg, #9da743 0%, #b926a1 100%);
+
+}
+
+.principaldiv {
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+  width: 70%;
+  margin-top: 70px;
+  height: 100%;
+}
+
+.container {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 9;
+}
+
+.container p {
+  margin: 9px 0px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 20px;
+  color: #434343;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+}
+
+.card {
+  height: 3px;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+}
+
+.carduser {
+  padding: 20px;
+  color: #434343;
+  border-radius: 10px;
+  width: 70%;
+  margin: 10px;
+  max-height: 40%;
+  background-color: #ffffff;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  box-shadow: 0 0 15px 0px;
+}
+
+.carduser h2 {
+  font-size: 22px;
+}
+
+.carduser p {
+  font-size: 18px;
+}
+
+.carduser button {
+  background-color: #ffffff00;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.trash {
+  color: rgb(168, 36, 201);
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.pencil {
+  color: rgb(255, 46, 203);
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button i {
+  font-size: 30px;
+}
+
+.carduser i {
+  font-size: 20px;
+}
+
+.principaldiv {
+  display: flex;
+  max-width: 100%;
+}
+
+.column1 {
+  display: block;
+  min-width: 20%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 50px;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  max-height: 100%;
+  box-shadow: 0 0 15px 0px;
+
+}
+
+.createbutton {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: #434343;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: width .5s;
+  border-radius: .5s;
+  padding: 0px 10px;
+}
+
+.createbutton * {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity .25s;
+}
+
+.form {
+  display: table-caption;
+  color: #434343;
+}
+
+.form label {
+  font-weight: 600;
+}
+
+.form input {
+  min-width: 230px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+
+.button1 {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  font-size: 14px;
+  color: #434343;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: width .5s;
+  border-radius: .5s;
+}
+
+.button1 * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity .25s;
+}
+
+.icon1 {
+  opacity: 0;
+  color: #434343;
+}
+
+
+.email {
+  color: gray;
+  margin: 10px;
+}
+
+.button1:focus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.button1:focus .text {
+  opacity: 0;
+}
+
+.button1:focus .icon1 {
+  opacity: 1;
+  transition-delay: .5s;
+}
